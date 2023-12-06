@@ -1,0 +1,312 @@
+/* CSS Document */
+
+
+ul,li,h1,h2,h3,p {
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+a {
+	text-decoration:none;
+	color:white;
+	font-size:20px;
+}
+body {
+	margin:0 auto;
+	line-height:21px;
+	background:#ddd;
+}
+.text_center {
+	text-align:left;
+	line-height:35px;
+}
+.clear {
+	clear:both;
+}
+img {
+	display:block;
+}
+.center {
+	width:1200px;
+	margin:0 auto
+}
+.top {
+	font-size:50px;
+	padding:10px 0;
+	text-align:center;
+	line-height:80px;
+	color:#fff;
+	position:relative;
+}
+.top img {
+	margin:0px auto;
+}
+.top span {
+	position:absolute;
+	top:20px;
+	right:50px;
+	line-height:24px;
+}
+.top span a {
+	background:#cc0000;
+	color:#fff;
+	display:inline-block;
+	padding:5px 20px;
+}
+.top span a:hover {
+	background:#ff6633;
+}
+.hei10 {
+	height:10px;
+}
+.header {
+	width:100%;
+	position:absolute;
+	z-index:55;
+	left:0;
+	top:0;
+	background:rgba(0,0,0,0.7)
+}
+.menu {
+	width:100%;
+	text-align:center;
+	border-top:rgba(255,255,255,0.5) solid 1px;
+}
+.menu li a {
+	color:#fff;
+	display:block
+}
+.menu li {
+	float:left;
+	padding:15px 0px;
+	width:20%;
+}
+.menu li:hover {
+	background:#993300
+}
+.content {
+	background:#fff;
+	font-size:16px;
+	color:#000;
+	width:1200px;
+	margin-left:auto;
+	margin-right:auto
+}
+.content h3 {
+	font-size:24px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.hei {
+	height:150px
+}
+.content ul {
+	margin:0 auto;
+	margin:10px;
+	line-height:30px;
+	font-size:16px;
+	float:none;
+}
+.bar2 {
+	border-bottom:#000000 solid 2px;
+	background:#ccc
+}
+.bar2 a {
+	border:#000 solid 2px;
+	font-size:30px;
+	position:relative;
+	top:2px;
+	font-weight:bold;
+	padding:10px 35px;
+	color:#000;
+	display:inline-block
+}
+.bar2 a.hover {
+	background:#FF6633;
+	color:#fff
+}
+.wqjs {
+	text-align:center;
+	float:right;
+}
+.con {
+	line-height:2;
+	font-size:16px;
+	padding:0 20px
+}
+.imgs {
+	width:200px;
+	height:150px;
+}
+.wqjs {
+	display:flex;
+	padding:50px 0
+}
+.wqjs  img {
+	display:block;
+	margin:0 auto;
+	width:40%;
+	height:300px;
+	object-fit:cover;
+}
+.mynew {
+	background:#000;
+	padding:20px 0
+}
+.mynew ul {
+	width:1200px;
+	margin:0 auto;
+	display:flex;
+}
+.mynew li {
+	width:25%;
+	border:#fff solid 3px;
+	margin:1%;
+}
+.mynew li img {
+	width:100%;
+	height:370px;
+	object-fit:cover
+}
+.bg1 {
+	background:url(../images/banner2.jpg) no-repeat center;
+	padding:50px 0;
+	height:400px;
+	width:50%;
+	float:left;
+	line-height:2;
+	font-size:18px;
+	background-size:cover;
+	color:#fff;
+}
+.bg2 {
+	background:url(../images/banner1.jpg) no-repeat center;
+	padding:50px 0;
+	height:400px;
+	width:50%;
+	float:left;
+	line-height:2;
+	font-size:18px;
+	background-size:cover;
+	color:#fff;
+}
+.bg1 .pd,.bg2 .pd {
+	padding:40px;
+}
+.end {
+	clear:both;
+	background-size:100%;
+	color:#fff;
+	padding:30px 0;
+	background:#000;
+	text-align:center;
+}
+.picture li {
+	float:right;
+	width:33.3%;
+	text-align:center;
+	margin-top:5px;
+}
+.picture li img {
+	width:300px;
+	border-radius:5px;
+}
+img {
+	max-width:100%;
+}
+.left {
+	float:left;
+	width:840px;
+	padding:0 15px;
+	line-height:35px;
+	padding-bottom:30px;
+	padding-left:15px;
+}
+.left1 {
+	float:right;
+	margin-right:10px;
+}
+.left h3 {
+	}.left h3 span {
+	display:inline-block;
+}
+.right {
+	float:right;
+	line-height:35px;
+	width:280px;
+	padding-right:20px;
+	text-align:center;
+}
+.right h3 {
+	text-align:center;
+}
+.right1 {
+	float:left;
+}
+.bar {
+	border:#000 dashed 1px;
+	margin:20px;
+	clear:both;
+	background:#ccc;
+	color:#000;
+	font-weight:bold;
+	padding:8px 15px;
+}
+.hei10 {
+	height:10px;
+}
+.list p {
+	margin-bottom:10px;
+}
+.list {
+	margin-top:15px;
+	padding-bottom:30px;
+}
+.list ul:after {
+	content:'';
+	display:block;
+	clear:both
+}
+.list li {
+	float:left;
+	width:29.3%;
+	margin:2%;
+	box-shadow:10px 10px 5px #aaa;
+	border-radius:20px;
+	overflow:hidden;
+}
+.list li img {
+	width:100%;
+	object-fit:cover;
+	height:330px;
+	display:block;
+}
+.padding {
+	margin-top:10px;
+}
+.zuoze {
+	margin-top:15px;
+	text-align:right;
+}
+.ciqu {
+	float:right;
+	width:280px;
+}
+.ciqu1 {
+	float:left;
+	width:280px;
+}
+.anniu {
+	background:#ff6666;
+	color:fff;
+	display:inline-block;
+	border-radius:5px;
+	padding:5px 30px;
+	margin-top:20px;
+}
+.anniu:hover {
+	background:#990000;
+}
+.banner {
+	clear:both;
+}
